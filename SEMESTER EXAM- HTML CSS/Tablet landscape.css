@@ -1,0 +1,69 @@
+header{
+    color:skyblue;
+    text-align: center;
+}
+header img{
+    display: inline;
+    
+    float: left;
+}
+.section2{
+    float: left;
+}
+#body{
+    float: right;
+    width: 500px;
+}
+#body img{
+    float: left;
+}
+#body2{
+width: 500px;
+    float:right ;
+}
+footer{
+    color: skyblue;
+    float: right;
+    width: 977px;
+}
+h2{
+    color: blue;
+}
+nav{
+    background-color:black;
+    padding: 10px;
+}
+nav ul li a{
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    #body {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    nav, #body, .right,footer {
+      width: 100%;
+    }
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }

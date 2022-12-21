@@ -1,0 +1,52 @@
+header{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+header img{
+    display: inline;
+    float: left;
+}
+#body{
+    float: left;
+    width: 77%;
+}
+#body img{
+    float: left;
+}
+footer{
+    color: skyblue;
+    float: right;
+    width: 100%;
+}
+h2{
+    color: blue;
+}
+nav{
+    background-color:black;
+    padding: 10px;
+}
+nav ul li a{
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+}
+nav ul li{
+    display: inline;
+    
+    padding: 20px;
+}
+.section2{
+    float: right;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ h2{
+    text-align: center;
+ }
